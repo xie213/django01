@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据</title>
+</head>
+<body>
+{% for u in uu %}
+    <tr>
+        <td>{{ u.id }}</td>
+        <td>{{ u.username }}</td>
+        <td>{{ u.passwrod }}</td>
+    </tr>
+{% endfor %}
+</body>
+</html>
